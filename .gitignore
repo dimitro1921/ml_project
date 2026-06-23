@@ -1,0 +1,12 @@
+# secrets
+.env
+
+# python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS
+.DS_Store

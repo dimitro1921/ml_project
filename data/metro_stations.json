@@ -1,0 +1,100 @@
+{
+  "kyiv_metro": {
+    "description": "Key stations (terminals and transfer hubs) of the Kyiv Metro with coordinates and addresses.",
+    "lines": [
+      {
+        "id": "M1",
+        "name": "Sviatoshynsko-Brovarska",
+        "color": "Red",
+        "stations": [
+          {
+            "name": "Akademmistechko",
+            "type": "Terminal",
+            "coordinates": {"lat": 50.4647, "lon": 30.3550},
+            "address": "Akademika Palladina Ave / Beresteyskyi Ave, Kyiv"
+          },
+          {
+            "name": "Teatralna",
+            "type": "Transfer (to M3)",
+            "coordinates": {"lat": 50.4447, "lon": 30.5175},
+            "address": "Bohdana Khmelnytskoho St, 5, Kyiv"
+          },
+          {
+            "name": "Khreshchatyk",
+            "type": "Transfer (to M2)",
+            "coordinates": {"lat": 50.4475, "lon": 30.5228},
+            "address": "Khreshchatyk St, 19, Kyiv"
+          },
+          {
+            "name": "Lisova",
+            "type": "Terminal",
+            "coordinates": {"lat": 50.4647, "lon": 30.6455},
+            "address": "Brovarskyi Ave / Kioto St, Kyiv"
+          }
+        ]
+      },
+      {
+        "id": "M2",
+        "name": "Obolonsko-Teremkivska",
+        "color": "Blue",
+        "stations": [
+          {
+            "name": "Heroiv Dnipra",
+            "type": "Terminal",
+            "coordinates": {"lat": 50.5225, "lon": 30.4986},
+            "address": "Obolonskyi Ave / Heroiv Dnipra St, Kyiv"
+          },
+          {
+            "name": "Maidan Nezalezhnosti",
+            "type": "Transfer (to M1)",
+            "coordinates": {"lat": 50.4503, "lon": 30.5244},
+            "address": "Maidan Nezalezhnosti / Khreshchatyk St, Kyiv"
+          },
+          {
+            "name": "Ploshcha Ukrainskykh Heroiv",
+            "type": "Transfer (to M3)",
+            "coordinates": {"lat": 50.4394, "lon": 30.5167},
+            "address": "Velyka Vasylkivska St / Hetmana Pavla Skoropadskoho St, Kyiv"
+          },
+          {
+            "name": "Teremky",
+            "type": "Terminal",
+            "coordinates": {"lat": 50.3672, "lon": 30.4542},
+            "address": "Akademika Hlushkova Ave, Kyiv"
+          }
+        ]
+      },
+      {
+        "id": "M3",
+        "name": "Syretsko-Pecherska",
+        "color": "Green",
+        "stations": [
+          {
+            "name": "Syrets",
+            "type": "Terminal",
+            "coordinates": {"lat": 50.4764, "lon": 30.4308},
+            "address": "Shchuseva St / Stetsenka St, Kyiv"
+          },
+          {
+            "name": "Zoloti Vorota",
+            "type": "Transfer (to M1)",
+            "coordinates": {"lat": 50.4483, "lon": 30.5133},
+            "address": "Volodymyrska St, 43, Kyiv"
+          },
+          {
+            "name": "Palats Sportu",
+            "type": "Transfer (to M2)",
+            "coordinates": {"lat": 50.4381, "lon": 30.5211},
+            "address": "Sportyvna Sq, 1, Kyiv"
+          },
+          {
+            "name": "Chervonyi Khutir",
+            "type": "Terminal",
+            "coordinates": {"lat": 50.4089, "lon": 30.6828},
+            "address": "Staroboryspilska St, Kyiv"
+          }
+        ]
+      }
+    ]
+  }
+}
